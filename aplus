@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A+ Mobile Auto Detail</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 p-4 md:p-8">
+
+  <header class="text-center mb-10">
+    <h1 class="text-4xl font-bold mb-2">A+ Mobile Auto Detail</h1>
+    <p class="text-lg text-gray-600">Professional, mobile auto detailing service that comes to you.</p>
+  </header>
+
+  <div class="max-w-5xl mx-auto">
+    <!-- Home Section -->
+    <section class="space-y-6 mb-10">
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-2xl font-semibold mb-4">Welcome to A+ Mobile Auto Detail</h2>
+        <p>We provide top-quality detailing for your vehicle at your convenience. Whether you're at home or work, our mobile service ensures your car looks its best without disrupting your day.</p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Gallery</h3>
+        <p class="text-gray-600">Add your before & after photos here to showcase your work.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+          <div class="bg-gray-200 h-40 rounded-xl"></div>
+          <div class="bg-gray-200 h-40 rounded-xl"></div>
+          <div class="bg-gray-200 h-40 rounded-xl"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="space-y-6 mb-10">
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-semibold mb-3">Interior Detail</h2>
+        <p>Deep cleaning of seats, carpets, dashboard, and more. Perfect for a refreshed and clean interior.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-semibold mb-3">Exterior Detail</h2>
+        <p>Complete hand wash, wax, and polish. We make your car shine like new again.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h2 class="text-xl font-semibold mb-3">Full Detail Package</h2>
+        <p>Combine both interior and exterior services for a complete vehicle transformation.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-white rounded-xl shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" required class="w-full border p-2 rounded" />
+        <input type="email" placeholder="Email" required class="w-full border p-2 rounded" />
+        <textarea placeholder="Your message" rows="4" required class="w-full border p-2 rounded"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+</body>
+</html>
